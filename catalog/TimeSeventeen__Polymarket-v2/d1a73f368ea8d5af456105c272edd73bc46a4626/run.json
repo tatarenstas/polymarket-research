@@ -1,0 +1,20 @@
+{
+  "repo_id": "TimeSeventeen/Polymarket-v2",
+  "source_url": "https://huggingface.co/datasets/TimeSeventeen/Polymarket-v2/tree/d1a73f368ea8d5af456105c272edd73bc46a4626",
+  "revision": "d1a73f368ea8d5af456105c272edd73bc46a4626",
+  "revision_requested": "main",
+  "hub_last_modified": "2026-11-11T20:21:00+00:00",
+  "ingested_at_utc": "2026-11-12T03:28:47+00:00",
+  "files_listed": 666,
+  "parquet_files": 664,
+  "footer_errors": 0,
+  "method": "Hub tree listing + Parquet footer range reads; no row data downloaded",
+  "versions": {
+    "pmresearch": "0.1.0",
+    "python": "3.12.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "pyarrow": "26.0.1",
+    "huggingface_hub": "2.4.0",
+    "duckdb": "2.0.0"
+  }
+}

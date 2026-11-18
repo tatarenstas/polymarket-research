@@ -1,0 +1,406 @@
+{
+  "07927aeaec4eac2b": {
+    "columns": [
+      [
+        "id",
+        "string"
+      ],
+      [
+        "condition_id",
+        "string"
+      ],
+      [
+        "oracle",
+        "string"
+      ],
+      [
+        "question_id",
+        "string"
+      ],
+      [
+        "outcome_slot_count",
+        "int64"
+      ]
+    ],
+    "layers": [
+      "CTF"
+    ],
+    "files": 1
+  },
+  "16f5699ecbad0b86": {
+    "columns": [
+      [
+        "id",
+        "string"
+      ],
+      [
+        "maker",
+        "string"
+      ],
+      [
+        "taker",
+        "string"
+      ],
+      [
+        "block_timestamp",
+        "int64"
+      ],
+      [
+        "maker_asset_id",
+        "string"
+      ],
+      [
+        "taker_asset_id",
+        "string"
+      ],
+      [
+        "maker_direction",
+        "string"
+      ],
+      [
+        "taker_direction",
+        "string"
+      ],
+      [
+        "token_asset_id",
+        "string"
+      ],
+      [
+        "token_amount",
+        "double"
+      ],
+      [
+        "usdc_amount",
+        "double"
+      ],
+      [
+        "price",
+        "double"
+      ],
+      [
+        "fee_usdc",
+        "double"
+      ]
+    ],
+    "layers": [
+      "OrderFilled"
+    ],
+    "files": 42
+  },
+  "34557dae9a75276c": {
+    "columns": [
+      [
+        "id",
+        "string"
+      ],
+      [
+        "stakeholder",
+        "string"
+      ],
+      [
+        "collateral_token",
+        "string"
+      ],
+      [
+        "parent_collection_id",
+        "string"
+      ],
+      [
+        "condition_id",
+        "string"
+      ],
+      [
+        "partition",
+        "list<element: string>"
+      ],
+      [
+        "usdc_amount",
+        "double"
+      ]
+    ],
+    "layers": [
+      "CTF"
+    ],
+    "files": 2
+  },
+  "75d764a3d97abd88": {
+    "columns": [
+      [
+        "id",
+        "string"
+      ],
+      [
+        "redeemer",
+        "string"
+      ],
+      [
+        "collateral_token",
+        "string"
+      ],
+      [
+        "parent_collection_id",
+        "string"
+      ],
+      [
+        "condition_id",
+        "string"
+      ],
+      [
+        "index_sets",
+        "list<element: string>"
+      ],
+      [
+        "usdc_amount",
+        "double"
+      ]
+    ],
+    "layers": [
+      "CTF"
+    ],
+    "files": 1
+  },
+  "cabbe5ad3de323fb": {
+    "columns": [
+      [
+        "id",
+        "string"
+      ],
+      [
+        "condition_id",
+        "string"
+      ],
+      [
+        "oracle",
+        "string"
+      ],
+      [
+        "question_id",
+        "string"
+      ],
+      [
+        "outcome_slot_count",
+        "int64"
+      ],
+      [
+        "payout_numerators",
+        "list<element: string>"
+      ]
+    ],
+    "layers": [
+      "CTF"
+    ],
+    "files": 1
+  },
+  "f23d37b3ed033fd1": {
+    "columns": [
+      [
+        "asset_id",
+        "large_string"
+      ],
+      [
+        "block_timestamp",
+        "int64"
+      ],
+      [
+        "price",
+        "double"
+      ],
+      [
+        "maker",
+        "large_string"
+      ],
+      [
+        "taker",
+        "large_string"
+      ],
+      [
+        "taker_direction",
+        "large_string"
+      ],
+      [
+        "usdc_amount",
+        "double"
+      ],
+      [
+        "fee_usdc",
+        "double"
+      ],
+      [
+        "condition_id",
+        "large_string"
+      ],
+      [
+        "outcome_seq",
+        "int64"
+      ],
+      [
+        "neg_risk",
+        "large_string"
+      ],
+      [
+        "category",
+        "large_string"
+      ],
+      [
+        "category_refined",
+        "large_string"
+      ],
+      [
+        "outcome_label",
+        "large_string"
+      ],
+      [
+        "winning_outcome_label",
+        "large_string"
+      ],
+      [
+        "resolution_status",
+        "large_string"
+      ],
+      [
+        "taker_base_fee",
+        "double"
+      ],
+      [
+        "maker_base_fee",
+        "double"
+      ],
+      [
+        "opens_at",
+        "timestamp[us, tz=UTC]"
+      ],
+      [
+        "close_at",
+        "timestamp[us, tz=UTC]"
+      ],
+      [
+        "resolved_at",
+        "timestamp[us, tz=UTC]"
+      ],
+      [
+        "market_slug",
+        "large_string"
+      ],
+      [
+        "p_event",
+        "double"
+      ],
+      [
+        "D",
+        "int8"
+      ],
+      [
+        "neg_risk_market_id",
+        "large_string"
+      ]
+    ],
+    "layers": [
+      "daily_aligned_multi"
+    ],
+    "files": 857
+  },
+  "faffd27189525001": {
+    "columns": [
+      [
+        "asset_id",
+        "large_string"
+      ],
+      [
+        "block_timestamp",
+        "int64"
+      ],
+      [
+        "price",
+        "double"
+      ],
+      [
+        "maker",
+        "large_string"
+      ],
+      [
+        "taker",
+        "large_string"
+      ],
+      [
+        "taker_direction",
+        "large_string"
+      ],
+      [
+        "usdc_amount",
+        "double"
+      ],
+      [
+        "fee_usdc",
+        "double"
+      ],
+      [
+        "condition_id",
+        "large_string"
+      ],
+      [
+        "outcome_seq",
+        "int64"
+      ],
+      [
+        "neg_risk",
+        "large_string"
+      ],
+      [
+        "category",
+        "large_string"
+      ],
+      [
+        "category_refined",
+        "large_string"
+      ],
+      [
+        "outcome_label",
+        "large_string"
+      ],
+      [
+        "winning_outcome_label",
+        "large_string"
+      ],
+      [
+        "resolution_status",
+        "large_string"
+      ],
+      [
+        "taker_base_fee",
+        "double"
+      ],
+      [
+        "maker_base_fee",
+        "double"
+      ],
+      [
+        "opens_at",
+        "timestamp[us, tz=UTC]"
+      ],
+      [
+        "close_at",
+        "timestamp[us, tz=UTC]"
+      ],
+      [
+        "resolved_at",
+        "timestamp[us, tz=UTC]"
+      ],
+      [
+        "market_slug",
+        "large_string"
+      ],
+      [
+        "p_event",
+        "double"
+      ],
+      [
+        "D",
+        "int8"
+      ]
+    ],
+    "layers": [
+      "daily_aligned"
+    ],
+    "files": 1248
+  }
+}

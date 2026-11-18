@@ -1,0 +1,29 @@
+[project]
+name = "pmresearch"
+version = "0.1.0"
+description = "Evidence-driven Polymarket research platform"
+readme = "README.md"
+authors = [
+    { name = "Stanislav Tataren", email = "79329397+tatarenstas@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=2.0.0",
+    "fsspec>=2026.9.0",
+    "huggingface-hub>=2.4.0",
+    "pyarrow>=26.0.1",
+    "requests>=2.34.2",
+    "websockets>=17.4",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[project.scripts]
+pmresearch = "pmresearch.cli:main"
